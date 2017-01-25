@@ -27,10 +27,9 @@ API.AI Setup
 1. Sign in to the `API.AI Console`_
 2. Create a new Agent_ named "Hello World" and click save.
 3. Within the newly created Agent, create an Intent.
-3a. Under "User Says", enter the trigger word you wish your user to say.
-3b. Under "Action", enter the name of your action as defined within your python action decorator, 
-    e.g. 'greetings' for the example assistant.
-3c. Check the checkbox "Use Webhook" 
+    - 3a. Under "User Says", enter the trigger word you wish your user to say.
+    - 3b. Under "Action", enter the name of your action as defined within your python action decorator e.g. "greetings" for the example assistant.
+    - 3c. Check the checkbox "Use Webhook" 
 4. Click on Fullfillment in the left side menu and enable webhook
     - Provide the publically available URL to the flask app will receive requests at
     - This can be easily done using `ngrok`_
